@@ -1,0 +1,28 @@
+
+
+.form{
+    background-color: #0314753b;
+    display:flex;align-items: center;flex-direction: column;
+    border:solid black 2px ;
+    margin-left:500px;
+    margin-right: 500px;
+    margin-top: 150px;
+    padding-bottom: 50px;
+    border-radius: 30px;
+   
+  
+  }
+  .img{
+    height: 100px;
+  
+  }
+  .btn{
+    margin-top: 20px;
+    
+  }
+  
+  .btnn{
+    margin-top: 10px;
+   margin-left: 500px; 
+  margin-right: 500px;
+  }
