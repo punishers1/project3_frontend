@@ -1,28 +1,77 @@
+/* .wrapper {
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    background: #297fca;
+}
+.right {
+    position: fixed;
+    z-index: 2;
+    top: -70%;
+    right: -50%;
+    background: #fff;
+    width: 100%;
+    height: 100%;
+    transform: translateY(50%) rotate(45deg);
+  } */
 
+/* .page{
+    
+} */
 
-.form{
-    background-color: #0314753b;
-    display:flex;align-items: center;flex-direction: column;
-    border:solid black 2px ;
-    margin-left:500px;
-    margin-right: 500px;
-    margin-top: 150px;
-    padding-bottom: 50px;
-    border-radius: 30px;
+.button{
+    width: 80%;
+    background-color: #1A374D !important;
+    border: #1A374D !important;
+}
+.button:hover{
+    background-color: #406882 !important;
+}
+.page{
+    background-image: url("https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/rm309-adj-05.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=7a3a0b293691f2d3fb739cb7821b3948");
+    background-size: cover;
+    /* opacity: 0.1px; */
+}
+
+  
+.logo{
+    height: 30% ;
+    width: 100% !important;
+    margin-top: 250px;
+}
+  .card{
+      position: block;
+      text-align: center;
+      border: none !important;
    
-  
+      margin-top: 200px;
+      margin-left: 50px;
+      height: 300px !important;
+      width: 50px;
+      /* margin-bottom: 100px; */
+      
   }
-  .img{
-    height: 100px;
-  
+  .inputs{
+      margin-top: 10px;
+      width: 90%;
+      border-radius: 3px;
+      border:1px solid rgba(128, 128, 128, 0.699);
+      height: 40px;
+      /* background-color: #f1f1f1 !important; */
+      
   }
-  .btn{
-    margin-top: 20px;
+
+  .body{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    width: 350px;
+    /* margin-bottom: 20px; */
+    background-color: white !important;
+    border-radius: 10px;
     
   }
-  
-  .btnn{
-    margin-top: 10px;
-   margin-left: 500px; 
-  margin-right: 500px;
+  .text{
+      text-align: left;
+      margin-left: 30px;
+      color: rgba(128, 128, 128, 0.596);
   }

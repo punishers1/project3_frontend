@@ -1,0 +1,22 @@
+.container{
+    text-align: center;
+    margin-top: 70px;
+}
+
+.Card1{
+    /* border: black 1px solid; */
+    margin-top: 10px;
+    text-align: left;
+    /* margin-left: 50px */
+    /* width: 90%; */
+    /* text-align: center; */
+    
+}
+
+.buttons{
+    text-align: center;
+    margin-top: 5px;
+}
+.Search{
+    text-align: center;
+}
