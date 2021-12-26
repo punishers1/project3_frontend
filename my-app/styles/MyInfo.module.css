@@ -1,0 +1,13 @@
+.Row{
+
+    margin-right: 25px;
+    margin-left: 25px;
+    margin-top: 15px;
+    text-align: center;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    height: 200px;
+}
+.Col{
+
+    margin-top: 30px;
+}
