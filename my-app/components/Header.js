@@ -2,6 +2,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { Col, Container, Row, NavDropdown } from 'react-bootstrap';
 import styles from "../styles/header.module.css"
 export default function Header() {
+
   return (
     <div>
       <Container fluid>
@@ -11,8 +12,9 @@ export default function Header() {
           </Col>
           <Col></Col>
           <Col className={ styles.colDrop}><NavDropdown className={styles.dropdown} title="Profile" >
-          <NavDropdown.Item  href="#action/3.1">my Info</NavDropdown.Item>
-          <NavDropdown.Item href="#action/3.2"> sign out</NavDropdown.Item>
+          <NavDropdown.Item  href="myInfo/">my Info</NavDropdown.Item>
+          <NavDropdown.Item onClick={()=>{localStorage.removeItem("token");
+}} href="/"> sign out</NavDropdown.Item>
           
           
         </NavDropdown></Col>
